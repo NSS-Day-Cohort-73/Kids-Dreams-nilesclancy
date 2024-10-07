@@ -7,7 +7,7 @@ const findCelebrityMatch = (child, celebrities) => {
     // for (const celebrity of celebrities) {
     //     if(celebrity.id === child.celebrityId)
 
-    return celebrities.map(celebrity => celebrity.id === child.celebrityId)
+    return celebrities.map(celebrity => celebrity.id === child.celebrityId) // use .find to find a single object pairing
     }
 // }
 

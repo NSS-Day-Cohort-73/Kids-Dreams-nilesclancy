@@ -44,7 +44,7 @@ Before you click the "Complete Assessment" button on the Learning Platform, add 
 
 3. In the **CelebrityList** module, can you describe how the name of the sport that the celebrity plays can be displayed in the window alert text?
 
-   > The sport name can be displayed because the event listener function tasked with governing each celebrities' click event designates two variables, celebritySport and celebrityId, which both are assigned to the event.target.dataset of their respective namesakes. These variables are then assigned to selectedCelebrity, which is passed into the alert() function to generate the string shown when any celeb is clicked.
+   > The sport name can be displayed because the event listener function tasked with governing each celebrities' click event designates two variables, celebritySport and celebrityId, which both are assigned to the event.target.dataset (this code is used to acess the data attributes used across the entire project, including "sport") of their respective namesakes. These variables are then assigned to selectedCelebrity, which is passed into the alert() function to generate the string shown when any celeb is clicked.
 
 4. Can you describe, in detail, the algorithm that is in the `main` module?
 

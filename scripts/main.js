@@ -40,7 +40,7 @@ function displayPairing() {
 mainContainer.addEventListener("click", (event) => {
     if (event.target.dataset.type === "celebrity") {
         const celebrityId = event.target.dataset.id 
-        const celebritySport = event.target.dataset.sport 
+        const celebritySport = event.target.dataset.sport // data attributes are used to access html elements
         selectedCelebrity = {id:celebrityId, name:event.target.innerHTML, sport:celebritySport}
 
         alert(`selected celebrity: ${selectedCelebrity.name}, sport: ${selectedCelebrity.sport}`)
